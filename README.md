@@ -28,8 +28,9 @@
 
 #### Usage:
 
-1. Download all required libraries ```pip install -r /path/to/requirements.txt```
-2. Run the main python file ```python main.py```
-3. Enter day and month for demand forecast.
-4. Predictions will be generated.
+1. Clone this repo.
+2. Install all required libraries ```pip install -r /path/to/requirements.txt```
+3. Run the main python file ```python main.py```
+4. Enter day and month for demand forecast.
+5. Predictions will be generated.
 
