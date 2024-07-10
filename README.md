@@ -1,33 +1,30 @@
-# Data Scientist - Code Challenge
+# Data Scientist - Code Challenge Submission
 
-We need to predict the demand for the next 24 hours by utilizing past electricity demand data points, humidity, temperature, dew point, and other drivers like weekdays, holidays, and etc. 
+#### Deliverables:
 
-#### Inputs: 
+- Data Exploration and Data Cleaning.ipynb:
 
-- sample data.csv is attached. 
+    Contains code used to explore and clean the data, will generate csv file "Cleaned data.csv"
 
+- Model Selection and Tuning.ipynb:
+    Contains code used to select a model and hyperparameter tuning.
 
-### Output: 
+- Cleaned Dataset.csv:
 
-A 24-hour demand forecast for a sample day in July or August. 
+    Generated from notebook Data Exploration and Data Cleaning.ipynb, cleaned dataset from Sample Dataset.
 
-  
-## General Requirements
-- The data set may contain outliers and abnormal values.
-- This is everything you need to know about having a better development experience. 
-- Write an instruction to run the project.
-- Don’t commit the .vscode or .idea directory.
+- main.py:
 
-### Evaluation:
+    Main code containing the final selected model and will print predicted demand for a chosen day in 2020 July and August.
 
-- The work will be evaluated based on the accuracy of the electricity demand forecast, the clarity of the code and documentation, and the overall effectiveness of the solution.
-- The acceptable error rate must be less than 5% (AE < 500 MW, or accuracy more than 95%)
-  
-### Deliverables for the Code Challenge
+- requirements.txt:
 
-- Detailed Report: Provide a comprehensive report covering model selection, fine-tuning processes, evaluation metrics, and results.
-- Code and Documentation: Include all code and documentation necessary to reproduce the experiments and results.
+    Libraries used in main.py
 
-### Submission
-- Please submit a GitHub link with your work and fork the repository for collaboration.
-- You have 1 week to send the challenge!
+#### Usage:
+
+1. Download all required libraries ```pip install -r /path/to/requirements.txt```
+2. Run the main python file ```python main.py```
+3. Follow the instructions appeared and enter day and month.
+4. Predictions will be generated.
+
